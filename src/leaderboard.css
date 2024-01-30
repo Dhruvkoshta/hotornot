@@ -1,0 +1,95 @@
+*{
+    font-family: 'Press Start 2P', sans-serif; 
+  }
+  
+  #wrapper {
+    /* --tw-bg-opacity: 1; */
+    background-color: rgb(213 193 190 / 1);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    padding: 0.75rem;
+  }
+  #leaderboard {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100bh;
+  }
+  
+  #board-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50vh;
+    width: 500px;
+    background-color: rgba(245, 230, 230, 0.918);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #0d0900;
+    border-radius: 5px;
+    padding: 40px;
+    gap: 5px;
+    box-shadow: 0px 4px 14px -3px #2e2d2d;
+  }
+  
+  #leaderboard-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: red;
+    text-decoration: underline;
+  }
+  
+  #board-entry {
+    border-bottom: 1px solid saddlebrown;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 1rem;
+    
+  }
+  #board-entry p{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  #return-btn{
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 2rem;
+    padding: 10px calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    transition: transform .3s ease-in-out;
+  }
+  #return-btn:hover{
+    background-color: antiquewhite;
+  }
