@@ -30,14 +30,19 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 // }
 
 // const addData = async () => {
-// 	for (let i = 60; i < 71; i++) {
-// 		const obj = {
-// 			id: i,
-// 			img: `https://raw.githubusercontent.com/mrrobot3141/greenbuilding/main/tierlist/img%20(${i}).jpg`,
-// 			rating: 1220,
-// 		};
-// 		await addDoc(collection(db, "users"), obj);
-// 		console.log(i, " done");
+// 	for (let i = 1; i < 71; i++) {
+// 		if (i===28) {
+// 			continue
+// 		}else{
+
+// 			const obj = {
+// 				id: i,
+// 				img: `https://raw.githubusercontent.com/mrrobot3141/greenbuilding/main/tierlist/img%20(${i}).jpg`,
+// 				rating: 1220,
+// 			};
+// 			await addDoc(collection(db, "users"), obj);
+// 			console.log(i, " done");
+// 		}
 // 	}
 // 	console.log("all done");
 // };

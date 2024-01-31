@@ -23,7 +23,6 @@ const Leaderboard = () => {
 			console.log(err);
 		}
 	}
-	console.log(tempArr);
 	useEffect(() => {
 		getData();
 	}, []);

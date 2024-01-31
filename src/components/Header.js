@@ -4,7 +4,7 @@ const Header = () => {
 	return (
 		<header className='bg-blue-500 p-4 flex justify-between'>
 			<Link to='/' className='text-white font-bold text-xl'>
-				GREEN BUILDING
+				Ratemaster69
 			</Link>
 			<div className='flex'>
 				<Link
